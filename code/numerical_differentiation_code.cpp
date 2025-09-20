@@ -25,3 +25,41 @@ double central(double (*f)(double), double x, double h)
 double sec(double x)      { return 1.0 / cos(x); }
 double cosec(double x)    { return 1.0 / sin(x); }
 double cot(double x)      { return cos(x) / sin(x); }
+
+//Arafat siddik araf 2024000000162
+
+//compares the errors of forward, backword, and central difference methods .
+void comparErrors(int choice, double x)
+{ 
+    double exact; // exact derivative
+    string fname;
+
+    switch(choice)
+{
+        case 1:
+               fname = "sin(x)";
+               cout<< "\nFunction: f(x) = sin(x), derivative f'(x) = cos(x)\n";
+               exact = cos(x);
+               break;
+         case 2:
+               fname = "cos(x)";
+               cout<< "\nFunction: f(x) = cos(x), derivative f'(x) = -sin(x)\n";
+               exact = -sin(x);
+               break;
+         case 3:
+               fname = "tan(x)";
+               cout<< "\nFunction: f(x) = tan(x), derivative f'(x) = sec^2(x)\n";
+               exact = 1.0 / (cos(x) * cos(x));
+               break;
+          case 4:
+                fname = "sec(x)";
+                cout<<"\nFunction: f(x) = sec(x), derivative f'(x) = sec(x)tan(x)\n";
+                exact = sec(x) * tan(x);
+                break;
+           case 5: 
+                 fname = "cosec(x)";
+                 cout<< "\nFunction: f(x) = cosec(x), derivative f'(x) = -cosec(x)cot(x)\n";
+                 exact = -cosec(x) * cot(x);
+                 break;
+
+       
