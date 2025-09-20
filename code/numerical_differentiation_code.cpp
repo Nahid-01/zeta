@@ -83,6 +83,36 @@ void comparErrors(int choice, double x)
     cout << setw(12) << "h" << setw(20) << "Forward error" << setw(20) << "Backword Error" << setw(20) << "Central Error" << "\n";
     cout << string(72, '-' << "\n";
 
+//Md. Fardin Islam 2024000000112
+// Vary step size h to show accuracy behaviour
+for (double h = 0.1; h >= 1e-8; h /= 10)
+{
+    double fwd, bwd, cen;
+
+    switch (choice)
+        {
+            case 1:
+            fwd = forward(sin, x, h);
+            bwd = backward(sin, x, h);
+            cen = central(sin, x, h);
+            break;
+
+            case 2:
+            fwd = forward(cos, x, h);
+            bwd = backward(cos, x, h);
+            cen = central(cos, x, h);
+            break;
+
+            case 3:
+            fwd = forward(tan, x, h);
+            bwd = backward(tan, x, h);
+            cen = central(cos, x, h);
+            break;
+        }
+}
+
+
+
     
 
 
