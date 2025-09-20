@@ -61,5 +61,26 @@ void comparErrors(int choice, double x)
                  cout<< "\nFunction: f(x) = cosec(x), derivative f'(x) = -cosec(x)cot(x)\n";
                  exact = -cosec(x) * cot(x);
                  break;
+//name :Md.Sajjat islam .id :2024000000369.
+case6:
+fname="cot(x)";
+cout<<"\nfunction:f(x)=cot(x),derivative f'(x)=-cosec^2(x)\n";
+exact=-(1.0/(sin(x) * sin(x)));
+break;
+
+case 7:
+fname="exp(x)";
+cout<< "\nfunction: f(x)= exp(x),derivative f'(x) =exp(x)\n";
+exact = exp(x);
+break;
+default:
+cout<< "invalid choice!\n";
+return;
+}
+cout << "exact derivative at x ("<< x <<")" << " = " << exact << "\n\n";
+cout << set(12) << "h" << setw(20) << "forword error " << "backword error" << setw(20) << "central error" << "\n";
+cout << string(72, '-') << "\n";
+double cot(double x)      { return cos(x) / sin(x); }
+
 
        
