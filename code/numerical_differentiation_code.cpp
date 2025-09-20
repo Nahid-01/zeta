@@ -35,53 +35,53 @@ void comparErrors(int choice, double x)
     string fname;
 
     switch(choice)
-{
+    {
         case 1:
-               fname = "sin(x)";
-               cout<< "\nFunction: f(x) = sin(x), derivative f'(x) = cos(x)\n";
-               exact = cos(x);
-               break;
-         case 2:
-               fname = "cos(x)";
-               cout<< "\nFunction: f(x) = cos(x), derivative f'(x) = -sin(x)\n";
-               exact = -sin(x);
-               break;
-         case 3:
-               fname = "tan(x)";
-               cout<< "\nFunction: f(x) = tan(x), derivative f'(x) = sec^2(x)\n";
-               exact = 1.0 / (cos(x) * cos(x));
-               break;
-          case 4:
-                f
+            fname = "sin(x)";
+            cout<< "\nFunction: f(x) = sin(x), derivative f'(x) = cos(x)\n";
+            exact = cos(x);
+            break;
+        
+        case 2:
+            fname = "cos(x)";
+            cout<< "\nFunction: f(x) = cos(x), derivative f'(x) = -sin(x)\n";
+            exact = -sin(x);
+            break;
+        case 3:
+            fname = "tan(x)";
+            cout<< "\nFunction: f(x) = tan(x), derivative f'(x) = sec^2(x)\n";
+            exact = 1.0 / (cos(x) * cos(x));
+            break;
+        case 4:
+            fname = "sec(x)";
+            cout<<"\nFunction: f(x) = sec(x), derivative f'(x) = sec(x)tan(x)\n";
+            exact = sec(x) * tan(x);
+            break;
+        case 5: 
+            fname = "cosec(x)";
+            cout<< "\nFunction: f(x) = cosec(x), derivative f'(x) = -cosec(x)cot(x)\n";
+            exact = -cosec(x) * cot(x);
+            break;
+        
+           //md.sajjat islam 2024000000369
+        case 6:
+            fname="cot(x)";
+            cout <<"\nFunction: f(x) = cot(x), derivative f'(x) = -cosec^2(x)\n";
+            exact = -(1.0/ (sin(x)*sin(x)));
+            break;
+        case 7:
+            fname ="exp(x)";
+            cout << "\nFunction: f(x) = exp(x), derivative f'(x) = exp(x)\n";
+            exact = exp(x);
+            break;
+        default:
+            cout << "Invalid choice!\n";
+            return;
+    }
 
-                    name = "sec(x)";
-                cout<<"\nFunction: f(x) = sec(x), derivative f'(x) = sec(x)tan(x)\n";
-                exact = sec(x) * tan(x);
-                break;
-           case 5: 
-                 fname = "cosec(x)";
-                 cout<< "\nFunction: f(x) = cosec(x), derivative f'(x) = -cosec(x)cot(x)\n";
-                 exact = -cosec(x) * cot(x);
-                 break;
-//name:md.sajjat islam .id :2024000000369.
-case 6:
-frame="cot(x)";
-cout <<"\nFunction: f(x) =cot(x),derivative f'(x) =-cosec^2(x)\n";
-exact =-(1.0/ (sin(x))));
-break;
-case 7:
-fname ="exp(x)";
-cout << "\nFunction: f(x) =exp (x), derivative f'(x) =exp (x)\n";
-exact =exp(x);
-break;
-default :
-cout << "Invalid choice!\n";
-return;
-}
-
-cout << "Exact derivative at x ( " << x << " ) " << " = " << exact << "\n\n";
-cout << setw(12) << "h" << setw(20) << "Forward error" << setw(20) << "Backword Error" << setw(20) << "Central Error" << "\n";
-cout << string(72,'-' << "\n";
+    cout << "Exact derivative at x ( " << x << " ) " << " = " << exact << "\n\n";
+    cout << setw(12) << "h" << setw(20) << "Forward error" << setw(20) << "Backword Error" << setw(20) << "Central Error" << "\n";
+    cout << string(72, '-' << "\n";
 
     
 
