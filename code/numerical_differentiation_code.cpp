@@ -29,7 +29,7 @@ double cot(double x)      { return cos(x) / sin(x); }
 //Arafat siddik araf 2024000000162
 
 //compares the errors of forward, backword, and central difference methods .
-void comparErrors(int choice, double x)
+void compareErrors(int choice, double x)
 { 
     double exact; // exact derivative
     string fname;
@@ -81,7 +81,7 @@ void comparErrors(int choice, double x)
 
     cout << "Exact derivative at x ( " << x << " ) " << " = " << exact << "\n\n";
     cout << setw(12) << "h" << setw(20) << "Forward error" << setw(20) << "Backword Error" << setw(20) << "Central Error" << "\n";
-    cout << string(72, '-' << "\n";
+    cout << string(72, '-') << "\n";
 
     //Md. Fardin Islam 2024000000112
     // Vary step size h to show accuracy behaviour
@@ -111,25 +111,25 @@ void comparErrors(int choice, double x)
 
 // Md. Mahinur Rahman Sun & 2024000000011
 
-            case 4;
+            case 4:
                 fwd = forward(sec, x, h);
                 bwd = backward(sec, x, h);
                 cen = central(sec, x, h);
                 break;
 
-            case 5;
+            case 5:
                 fwd = forward(cosec, x, h);
                 bwd = backward(cosec, x, h);
                 cen = central(cosec, x, h);
                 break;
 
-            case 6;
+            case 6:
                 fwd = forward(cot, x, h);
                 bwd = backward(cot, x, h);
                 cen = central(cot, x, h);
                 break;
 
-            case 7;
+            case 7:
                 fwd = forward(exp, x, h);
                 bwd = backward(exp, x, h);
                 cen = central(exp, x, h);
@@ -143,17 +143,46 @@ void comparErrors(int choice, double x)
     }
 }
 
+//Mohammad Nahid Hosssain & 2024000000001
 
+int main()
+{
+    int choice;
+    double x;
+    cout << fixed << setprecision(8);
 
+    while(true)
+    {
+        cout << "\nChoose a function:\n";
+        cout << "1. f(x) = sin(x)\n";
+        cout << "2. f(x) = cos(x)\n";
+        cout << "3. f(x) = tan(x)\n";
+        cout << "4. f(x) = sec(x)\n";
+        cout << "5. f(x) = cosec(x)\n";
+        cout << "6. f(x) = cot(x)\n";
+        cout << "7. f(x) = exp(x)\n";
+        cout << "8. Exit\n";
+        cout << "Enter choice: ";
+        cin >> choice;
 
+        if (choice==8)
+            break;
 
+        cout << "Enter the point x where you want the derivative: ";
+        cin >> x;
 
-
-
-
-
-
-
-
-
+        //Condition for undefined points
+        if ((choice == 3 && cos(x) == 0) ||  // tan(x) undefined
+            (choice == 4 && cos(x) == 0) ||  // sec(x) undefined
+            (choice == 5 && sin(x) == 0) ||  // cosec(x) undefined
+            (choice == 6 && sin(x) == 0))    // cot(x) undefined
+            
+         {
+             cout << "Warning: Function undefined at this x!\n";
+             continue;
+         }
+         compareErrors(choice,x);
+    }
+    return 0;
+}
 
