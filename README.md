@@ -19,3 +19,8 @@ In those cases, we use numerical methods to estimate the derivative.
 * When we only have measured data points (not an equation).
 * To study the accuracy of different approximation methods.
 * Essential in fields like signal processing, control systems, fluid mechanics, and numerical simulations.
+
+Finite Difference Formulas
+
+Numerical differentiation is based on finite differences, which use nearby function values to approximate the slope at a point.
+
