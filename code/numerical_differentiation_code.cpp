@@ -108,14 +108,52 @@ void comparErrors(int choice, double x)
                 bwd = backward(tan, x, h);
                 cen = central(cos, x, h);
                 break;
+
+// Md. Mahinur Rahman Sun & 2024000000011
+
+            case 4;
+                fwd = forward(sec, x, h);
+                bwd = backward(sec, x, h);
+                cen = central(sec, x, h);
+                break;
+
+            case 5;
+                fwd = forward(cosec, x, h);
+                bwd = backward(cosec, x, h);
+                cen = central(cosec, x, h);
+                break;
+
+            case 6;
+                fwd = forward(cot, x, h);
+                bwd = backward(cot, x, h);
+                cen = central(cot, x, h);
+                break;
+
+            case 7;
+                fwd = forward(exp, x, h);
+                bwd = backward(exp, x, h);
+                cen = central(exp, x, h);
+                break;
         }
+
+        cout << setw(12) << h
+             << setw(20) << fabs(fwd - exact)
+             << setw(20) << fabs(bwd - exact)
+             << setw(20) << fabs(cen - exact) << "\n";
+    }
 }
 
 
 
-    
 
 
 
 
-       
+
+
+
+
+
+
+
+
