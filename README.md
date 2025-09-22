@@ -30,5 +30,8 @@ Three finite difference formulas
 
     Formula:  f'(x) ~ ( f(x) - f(x - h) ) / h
 
+    * Takes the slope between f(x) and f(x-h).
+    * Looks backward from the current point.
+    * Useful when forward values are not available. 
 
-3. Central difference
+4. Central difference
