@@ -45,3 +45,4 @@ Three finite difference formulas
 * Custom trigonometric functions
 
   * C++ <cmath> library does not provide sec(x) , cosec(x) and cot(x).
+  * These are manually defined so the code can handle all common trigonometric funtions.
