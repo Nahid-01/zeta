@@ -37,3 +37,7 @@ Three finite difference formulas
 3. Central difference
 
     Formula : f'(x) ~ ( f(x + h) - f(x - h) ) / ( 2 * h )
+
+    * Takes the slope between f(x - h) and f(x + h)
+    * Looks both firections and finds the average.
+    * Most accurate among the three because it balances forward and bakcward error.
