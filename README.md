@@ -46,3 +46,12 @@ Three finite difference formulas
 
   * C++ <cmath> library does not provide sec(x) , cosec(x) and cot(x).
   * These are manually defined so the code can handle all common trigonometric funtions.
+ 
+* Diagram
+      -------
+
+  * Forward Diffrence   : slope from f(x) -> f(x+h)
+  * Backward Difference : slope from f(x-h) -> f(x)
+  * Central Difference  : slope across both sides
+
+
