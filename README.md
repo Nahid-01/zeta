@@ -54,4 +54,4 @@ Three finite difference formulas
   * Backward Difference : slope from f(x-h) -> f(x)
   * Central Difference  : slope across both sides
 
-
+-------------------
