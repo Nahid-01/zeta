@@ -20,4 +20,4 @@ Three finite difference formulas
 
 1. Forward difference
 
-Formula: f'(x) ~  (f(x+h) - f(x)) / h
+       Formula: f'(x) ~  (f(x+h) - f(x)) / h
