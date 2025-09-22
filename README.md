@@ -11,7 +11,7 @@ In real-world applications, we often don't have a simple  formula to differentia
 
 Why do we use it?
 
-*To calculate derivatives when the formula is too complicated.
+* To calculate derivatives when the formula is too complicated.
 * When we only have data points, not equations.
 * To check how ccurate different approcimation methods are.
 * Widely used in engineering, physics, machine learning and computer simulations.
