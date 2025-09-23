@@ -9,3 +9,5 @@ Numerical differentiation is particularly important in situations where analytic
   - Implement Forward, Backward and Central Differnece methods in C++.
   - Compute numerical derivatives of standard function: sin(x), cos(x), tan(x), sec(x), cosec(x), cot(x) and exp(x).
   - Compare numerical results with exact analytical derivatives.
+  - Investigate how step size (h) affects accuracy and error.
+  - Discuss the trade-off between truncation error and floationg-point round-off error.
