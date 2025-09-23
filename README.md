@@ -25,5 +25,5 @@ The following finite difference approximations are implemented :
 
 * Central Difference Formula
 
-      f'(x) ≈ ( f(x + h)  -  f(x − h) ) / 2h,  Error = O(h<sup>2</sup>)
+      f'(x) ≈ ( f(x + h)  -  f(x − h) ) / 2h,  Error = O(h^2)
 
