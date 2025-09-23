@@ -11,3 +11,6 @@ Numerical differentiation is particularly important in situations where analytic
   - Compare numerical results with exact analytical derivatives.
   - Investigate how step size (h) affects accuracy and error.
   - Discuss the trade-off between truncation error and floating-point round-off error.
+
+# Theoretical Background & Formulas
+The following finite difference approximations are implemented : 
