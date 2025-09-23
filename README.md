@@ -56,8 +56,9 @@ The project is implemented in C++ with a moduler structure.
   - ./diff
 
 * Step 4: Usage(Program Interaction)
-   When run the program, the terminal displays a menu:
-    Choose a function:
+  - When run the program, the terminal displays a menu:
+
+Choose a function:
 1. f(x) = sin(x)
 2. f(x) = cos(x)
 3. f(x) = tan(x)
