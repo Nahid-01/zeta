@@ -1,6 +1,6 @@
 # Project Title
 Numerical Differentiation - Forward, Backward & Central Difference
-# Project Overview & Objective
+# Project Overview
 This project is developed as part of CSE261: Numerical Methods at Southeast University, Summer 2025. It focuses on the implementation and comparative analysis of numerical differentiation using three finite difference formulas: Forward Difference, Backward Difference and Central Difference.
 
 Numerical differentiation is particularly important in situations where analytical differentiation is difficult or impossible. It is widely applied in engineering, physics and computational sciences, especially when only discrete values of a function are available.
