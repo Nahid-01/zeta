@@ -67,6 +67,7 @@ The project is implemented in C++ with a moduler structure.
        6. f(x) = cot(x)
        7. f(x) = exp(x)
        8. Exit
+  
        Enter choice: 1
 
        Enter the point x where you want the derivative: 0.785398   (≈ π/4)
