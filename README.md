@@ -115,3 +115,8 @@ The project is implemented in C++ with a moduler structure.
 
   <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1954ba3a-0f1d-4ce1-a098-0d67033a7ee5" />
 
+  
+   * Key Observations:
+       - Errors decreases as h decreases.
+       - The Central Difference Method is significantly more accurate (O(h^2)).
+       - At very small h, errors rise again due to floating-point round-off.
