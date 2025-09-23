@@ -58,18 +58,18 @@ The project is implemented in C++ with a moduler structure.
 * Step 4: Usage(Program Interaction)
   - When run the program, the terminal displays a menu:
 
-Choose a function:
-1. f(x) = sin(x)
-2. f(x) = cos(x)
-3. f(x) = tan(x)
-4. f(x) = sec(x)
-5. f(x) = cosec(x)
-6. f(x) = cot(x)
-7. f(x) = exp(x)
-8. Exit
-Enter choice: 1
-Enter the point x where you want the derivative: 0.785398   (≈ π/4)
-
-Function: f(x) = sin(x), derivative f'(x) = cos(x)
-Exact derivative at x ( 0.785398 ) = 0.70710678
-
+            Choose a function:
+            1. f(x) = sin(x)
+            2. f(x) = cos(x)
+            3. f(x) = tan(x)
+            4. f(x) = sec(x)
+            5. f(x) = cosec(x)
+            6. f(x) = cot(x)
+            7. f(x) = exp(x)
+            8. Exit
+            Enter choice: 1
+            Enter the point x where you want the derivative: 0.785398   (≈ π/4)
+            
+            Function: f(x) = sin(x), derivative f'(x) = cos(x)
+            Exact derivative at x ( 0.785398 ) = 0.70710678
+            
