@@ -107,3 +107,11 @@ The project is implemented in C++ with a moduler structure.
       | 1.0e-1 |      2.83e-03 |       3.12e-03 |      1.52e-04 |
       | 1.0e-2 |      2.83e-05 |       3.12e-05 |      1.52e-08 |
       | 1.0e-3 |      2.83e-07 |       3.12e-07 |      1.52e-12 |
+
+# Error vs Step Size Graph
+
+Below is a log-log plot showing how the error decreases with step size for f(x) = sin(x), x = π/4:
+
+
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/1954ba3a-0f1d-4ce1-a098-0d67033a7ee5" />
+
