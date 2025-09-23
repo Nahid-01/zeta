@@ -110,8 +110,8 @@ The project is implemented in C++ with a moduler structure.
 
 # Error vs Step Size Graph
 
-Below is a log-log plot showing how the error decreases with step size for f(x) = sin(x), x = π/4:
+   * Below is a log-log plot showing how the error decreases with step size for f(x) = sin(x), x = π/4:
 
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1954ba3a-0f1d-4ce1-a098-0d67033a7ee5" />
+  <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1954ba3a-0f1d-4ce1-a098-0d67033a7ee5" />
 
