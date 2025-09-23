@@ -46,8 +46,8 @@ The project is implemented in C++ with a moduler structure.
 
 # How to Compile & Run
 * Step 1: Clone Repository
-- git clone https://github.com/Nahid-01/zeta.git
-- cd zeta/code
+  - git clone https://github.com/Nahid-01/zeta.git
+  - cd zeta/code
 
 * Step 2: Compile
   - g++ "numerical differentiation code.cpp" -o diff
