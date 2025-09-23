@@ -27,4 +27,4 @@ The following finite difference approximations are implemented :
 
       f'(x) ≈ ( f(x + h)  -  f(x − h) ) / 2h,  Error = O(h^2)
 
-The Central Difference Method is generally more accurate because its truncation error decreases quadratically with step size, unlike forward and Backward methods which decrease lineraly.
+The Central Difference Method is generally more accurate because its truncation error decreases quadratically with step size, unlike Forward and Backward methods which decrease linearly.
