@@ -43,3 +43,17 @@ The project is implemented in C++ with a moduler structure.
 * User Interaction
   - Menu-driven program where the user selects the function and input point x.
   - Handles invalid inputs (e.g., division by zero for tan(x) at x = π/2).
+
+# How to Compile & Run
+Step : Clone Repository
+git clone https://github.com/Nahid-01/zeta.git
+cd zeta/code
+
+Step 2: Compile
+g++ "numerical differentiation code.cpp" -o diff
+
+Step 3: Run Program
+./diff
+
+Step 4: Usage(Program Interaction)
+
