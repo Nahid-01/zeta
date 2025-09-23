@@ -45,15 +45,15 @@ The project is implemented in C++ with a moduler structure.
   - Handles invalid inputs (e.g., division by zero for tan(x) at x = π/2).
 
 # How to Compile & Run
-Step : Clone Repository
+*Step 1: Clone Repository
 git clone https://github.com/Nahid-01/zeta.git
 cd zeta/code
 
-Step 2: Compile
+*Step 2: Compile
 g++ "numerical differentiation code.cpp" -o diff
 
-Step 3: Run Program
+*Step 3: Run Program
 ./diff
 
-Step 4: Usage(Program Interaction)
+*Step 4: Usage(Program Interaction)
 
