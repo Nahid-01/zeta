@@ -14,3 +14,12 @@ Numerical differentiation is particularly important in situations where analytic
 
 # Theoretical Background & Formulas
 The following finite difference approximations are implemented : 
+
+* Forward Difference Formula
+  
+      f'(x)  ≈  ( f(x+h) − f(x) ) / h,  Error = O(h)
+
+* Backward Difference Formula
+      f'(x)  ≈   ( f(x) − f(x − h) ) / h,  Error = O(h)
+
+* Central Difference Formula
