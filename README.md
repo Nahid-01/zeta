@@ -90,5 +90,8 @@ The project is implemented in C++ with a moduler structure.
                0.00000010        0.00000000          0.00000000          0.00000000
                0.00000001        0.00000000          0.00000000          0.00000000
 
+
+<img width="1800" height="1200" alt="error_plot" src="https://github.com/user-attachments/assets/1a9ba8b4-93ee-48aa-8a30-68847967d588" />
+
      
             
