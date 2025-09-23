@@ -74,6 +74,7 @@ The project is implemented in C++ with a moduler structure.
             
        Function: f(x) = sin(x), derivative f'(x) = cos(x)
        Exact derivative at x (0.785398) = 0.70710678
- *Sample Output Table:
+
+ * Sample Output Table:
      
             
