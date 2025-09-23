@@ -121,3 +121,10 @@ The project is implemented in C++ with a moduler structure.
        - Errors decreases as h decreases.
        - The Central Difference Method is significantly more accurate (O(h^2)).
        - At very small h, errors rise again due to floating-point round-off.
+
+# Discussion: Error vs Step size 
+
+From the error analysis graph:
+   *Forward & Backward difference both methods have truncation error of order O(h).
+   *As h decreases, error decreases linearly,but their accuracy is limited compared to Central Difference.
+   *Forward tends to understimate, while Backward tends to overestimate in many cases.
