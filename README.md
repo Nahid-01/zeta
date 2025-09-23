@@ -55,3 +55,50 @@ Three finite difference formulas
   * Central Difference  : slope across both sides
 
 -------------------
+
+Numerical Differentiation Error Comparison
+This part implements a numerical differenciation program in C++ to compare the errors of Forward , Backward , and central
+difference methods against the exact derivative of standard trigonometric functions.
+
+#Features
+*Allows the user to choose one of the following functions:
+  * sin(x) = derivative:cos(x)
+  * cos(x) = derivative: -sin(X)
+  * tan(x) = derivative:sec^2(x)
+  * sec(x) = derivative:sec(x)tan(x)
+  * csc(x) = derivative: -csc(x)cot(x)
+
+*Computes the exact derivative and compares it with apporximations from:
+  *Forward difference method
+  *Backward difference method
+  *Central difference method
+
+*Displays the error between numerical and exact derivatives.
+
+# How it works
+  1.User selects a function(choice 1-5).
+  2.Program calculates the exact derivative at a given value of x.
+  3.Uses Forward,Backward,Central difference formulas with a small step h.
+  4.Compares the approximate results with the exact derivative.
+  5.Prints the results and errors.
+
+# Example output:
+
+ Function: f(x) = sin(x), derivative f'(x) = cos(x)
+
+ Forward Difference Approx: ....
+ Backward Difference Approx: ....
+ Central Difference Approx: ....
+ Exact Derivative: ....
+ Errors:
+   Forward Error = ....
+   Backward Error = ....
+   Central Error = ....
+
+# Applicatons
+ *Numerical analysis
+ *Error estimation in differentiation
+ *Understanding Forward, Backward, and Central difference methods
+
+ --------------------
+  
