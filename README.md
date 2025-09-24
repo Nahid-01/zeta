@@ -95,7 +95,7 @@ The project is implemented in C++ with a moduler structure.
   For f(x) = sin(x) at X = π/4, the exact derivative is:
 
   <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{White}f'(x)=\cos\left(\tfrac{\pi}{4}\right)\approx0.70710678" />
+  <img src="https://latex.codecogs.com/svg.latex?\color{Black}f'(x)=\cos\left(\tfrac{\pi}{4}\right)\approx0.70710678" />
 </p>
 
 
