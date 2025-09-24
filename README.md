@@ -138,6 +138,6 @@ From the error analysis graph:
         - For example, reducing h by 10 reduces error by about 100 times in Central Difference.
 
   * Floating-Point Round-off Error  
-        - When h becomes extremely small (e.g., 1e-8), the subtraction of nearly equal numbers causes loss of precision.  
-        - This explains why the error increases again at very small step sizes, even for Central Difference.
+         - When h becomes extremely small (e.g., 1e-8), the subtraction of nearly equal numbers causes loss of precision.  
+         - his explains why the error increases again at very small step sizes, even for Central Difference.
 
