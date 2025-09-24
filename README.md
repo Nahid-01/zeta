@@ -128,6 +128,6 @@ From the error analysis graph:
 
    * Forward & Backward difference:
      
-        -Both methods have truncation error of order O(h).
-        -As h decreases, error decreases linearly,but their accuracy is limited compared to Central Difference.
-        -Forward tends to understimate, while Backward tends to overestimate in many cases.
+        - Both methods have truncation error of order O(h).
+        - As h decreases, error decreases linearly,but their accuracy is limited compared to Central Difference.
+        - Forward tends to understimate, while Backward tends to overestimate in many cases.
