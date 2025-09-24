@@ -140,5 +140,5 @@ From the error analysis graph:
   * Floating-Point Round-off Error
   
          - When h becomes extremely small (e.g., 1e-8), the subtraction of nearly equal numbers causes loss of precision.  
-         - his explains why the error increases again at very small step sizes, even for Central Difference.
+         - His explains why the error increases again at very small step sizes, even for Central Difference.
 
